@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "javaType": "ru.sbrf.demo.life.Cell",
+  "properties": {
+    "x": {
+      "type": "integer"
+    },
+    "y": {
+      "type": "integer"
+    },
+    "isAlive": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "x", "y", "isAlive"
+  ]
+}

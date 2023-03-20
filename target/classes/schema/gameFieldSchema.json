@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "javaType": "ru.sbrf.demo.life.GameField",
+  "properties": {
+    "height": {
+      "type": "integer"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "cells": {
+      "type": "array",
+      "items": {
+        "$ref": "cellSchema.json"
+      }
+    }
+  },
+  "required": [
+    "height", "width", "cells"
+  ]
+}
